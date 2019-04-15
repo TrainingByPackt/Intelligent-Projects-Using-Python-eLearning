@@ -4,31 +4,22 @@ import numpy as np
 np.random.seed(1000)
 
 import os
-import glob
 import cv2
-import datetime
-import pandas as pd
 import time
 import warnings
 warnings.filterwarnings("ignore")
 from sklearn.model_selection import KFold
 from sklearn.metrics import cohen_kappa_score
-from keras.models import Sequential,Model
-from keras.layers.core import Dense, Dropout, Flatten
-from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D
-from keras.layers import GlobalMaxPooling2D,GlobalAveragePooling2D
-from keras.optimizers import SGD
-from keras.callbacks import EarlyStopping
-from keras.utils import np_utils
-from sklearn.metrics import log_loss
+from keras.models import Model
+from keras.layers.core import Dense, Dropout
+from keras.layers import GlobalAveragePooling2D
 import keras
-from keras import __version__ as keras_version
 from keras.applications.inception_v3 import InceptionV3
 from keras.applications.resnet50 import ResNet50
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing.image import ImageDataGenerator
 from keras import optimizers 
-from keras.callbacks import EarlyStopping, ModelCheckpoint, CSVLogger, Callback
+from keras.callbacks import EarlyStopping, ModelCheckpoint, CSVLogger
 from keras.applications.resnet50 import preprocess_input
 import h5py
 import argparse
