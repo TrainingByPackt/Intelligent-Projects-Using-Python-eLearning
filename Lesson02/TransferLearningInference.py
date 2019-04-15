@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import cv2
 import os
-import time
 from sklearn.externals import joblib
 import argparse
 
