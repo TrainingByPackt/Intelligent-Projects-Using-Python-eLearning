@@ -4,7 +4,6 @@ from keras.layers import Input, LSTM, Dense,Embedding
 import numpy as np
 import codecs
 import argparse
-from sklearn.externals import joblib
 import pandas as pd
 import pickle
 from elapsedtimer import ElapsedTimer
