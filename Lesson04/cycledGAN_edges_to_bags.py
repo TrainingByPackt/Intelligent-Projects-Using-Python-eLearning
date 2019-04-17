@@ -1,14 +1,11 @@
 from __future__ import print_function, division
 #import scipy
 import tensorflow as tf
-import datetime
-import matplotlib.pyplot as plt
 #import sys
 #from data_loader import DataLoader
 import numpy as np
 import os
 import time 
-import glob
 from scipy.misc import imread,imresize,imsave
 import copy
 import fire
