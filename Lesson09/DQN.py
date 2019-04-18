@@ -1,10 +1,9 @@
 import keras
 from keras import optimizers
 from keras.layers import Convolution2D
-from keras.layers import Dense, Flatten, Input, concatenate, Dropout
+from keras.layers import Dense, Flatten, Input
 from keras.models import Model
 from keras.utils import plot_model
-from keras import backend as K
 import numpy as np
 
 '''
