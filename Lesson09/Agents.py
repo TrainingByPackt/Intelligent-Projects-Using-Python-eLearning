@@ -1,4 +1,3 @@
-import math
 from Memory import Memory
 from DQN import DQN
 import numpy as np
