@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-import sys
 import os
 print(tf.__version__)
 import fire
