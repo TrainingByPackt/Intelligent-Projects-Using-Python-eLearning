@@ -1,4 +1,3 @@
-import keras 
 import pickle 
 import fire
 from elapsedtimer import ElapsedTimer
