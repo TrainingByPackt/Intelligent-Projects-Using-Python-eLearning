@@ -1,13 +1,10 @@
-import sys
 #sys.path.append('/home/santanu/ML_DS_Catalog-/Python-Artificial-Intelligence-Projects_backup/Python-Artificial-Intelligence-Projects/Chapter09/Scripts/')
 from gym import envs
-from Agents import Agent,RandomAgent
 from helper_functions import action_list,model_save
 from environment import environment
 import argparse
 import numpy as np
 import random
-from sum_tree import sum_tree
 from sklearn.externals import joblib
 
 '''
