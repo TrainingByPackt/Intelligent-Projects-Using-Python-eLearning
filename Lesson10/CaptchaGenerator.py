@@ -1,7 +1,6 @@
 from claptcha import Claptcha
 import os
 import numpy as np
-import cv2
 import fire 
 from elapsedtimer import ElapsedTimer
 
