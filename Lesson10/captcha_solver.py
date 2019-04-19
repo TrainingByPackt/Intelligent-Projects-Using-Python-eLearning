@@ -4,11 +4,9 @@ import os
 import numpy as np
 import cv2
 import keras
-from keras.models import Sequential,Model
-from keras.layers import Dropout,Activation, \
-        Convolution2D, GlobalAveragePooling2D, merge,MaxPooling2D,Conv2D,Flatten,Dense,Input
-from keras import backend as K 
-from keras.optimizers import Adam
+from keras.models import Model
+from keras.layers import Dropout, \
+        Convolution2D,MaxPooling2D,Conv2D,Flatten,Dense,Input
 import fire
 from elapsedtimer import ElapsedTimer
 from keras.utils import plot_model
